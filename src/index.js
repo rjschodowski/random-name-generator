@@ -84,12 +84,27 @@ btn.addEventListener("click", function () {
     return Math.floor(Math.random() * description.length);
   };
 
+  const getRandomHonorifics = function () {
+    return Math.floor(Math.random() * honorifics.length);
+  };
+
   const naming = function () {
     const randomName = getRandomName();
     const randomDescription = getRandomDescription();
-    console.log(description[randomDescription] + " " + names[randomName]);
+    const randomHonorific = getRandomHonorifics();
+    console.log(
+      honorifics[randomHonorific] +
+        " " +
+        description[randomDescription] +
+        " " +
+        names[randomName]
+    );
     person.textContent =
-      description[randomDescription] + " " + names[randomName];
+      honorifics[randomHonorific] +
+      " " +
+      description[randomDescription] +
+      " " +
+      names[randomName];
   };
 
   naming();
