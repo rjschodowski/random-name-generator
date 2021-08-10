@@ -25,8 +25,11 @@ h3 {
   letter-spacing: 2px;
   border: none;
   border-radius: 10px;
+  box-shadow: 1.5px 1.5px #D3D3D3;
 }
 
-#btn:hover {
+#btn:active {
   background-color: #151515;
+  transition-duration: 0.75s;
+ 
 }
