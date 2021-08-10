@@ -84,7 +84,7 @@ const description = [
   "Hairy",
   "Pretty",
   "Rude",
-  "Disgruntled"
+  "Disgruntled",
   "Angry",
   "Gassy",
   "Lazy",
