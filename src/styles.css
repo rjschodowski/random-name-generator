@@ -30,7 +30,13 @@ h3 {
   box-shadow: 1.5px 1.5px #d3d3d3;
 }
 
+#btn:hover {
+  transition-duration: 0.75s;
+  transform: scale(1.03);
+}
+
 #btn:active {
   background-color: #151515;
   transition-duration: 0.75s;
+  transform: scale(0.97);
 }
