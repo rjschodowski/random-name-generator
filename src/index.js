@@ -28,11 +28,15 @@ const honorifics = [
   "Lietenant",
   "Sargeant",
   "Constable",
-  "Sheriff"
+  "Sheriff",
+  "King",
+  "Queen"
 ];
 
 const names = [
   "Cat",
+  "Donkey",
+  "Kong",
   "Drool",
   "Fanny Farmer",
   "Popcorn",
@@ -44,7 +48,18 @@ const names = [
   "Winona",
   "Gilbert",
   "Dan",
-  "Fred"
+  "Fred",
+  "Billy",
+  "Bubba",
+  "Barbie",
+  "Wilma",
+  "George",
+  "Punk",
+  "Dude",
+  "Dudette",
+  "Wart",
+  "Pimpleton",
+  "Pumpkin"
 ];
 const description = [
   "Silly",
@@ -70,7 +85,10 @@ const description = [
   "Flimsy",
   "Floppy",
   "Willing",
-  "Jolly"
+  "Jolly",
+  "Balding",
+  "Bald",
+  "Poopy"
 ];
 const btn = document.getElementById("btn");
 const person = document.querySelector(".person");
