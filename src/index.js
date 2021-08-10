@@ -8,14 +8,43 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 
+const honorifics = [
+  "Mr.",
+  "Professor",
+  "Mrs.",
+  "Miss",
+  "Ms.",
+  "Lord",
+  "Sir",
+  "Lady",
+  "Prince",
+  "Princess",
+  "Dr.",
+  "The Most Honourable",
+  "Madam",
+  "Master",
+  "Chancellor",
+  "Director",
+  "Lietenant",
+  "Sargeant",
+  "Constable",
+  "Sheriff"
+];
+
 const names = [
-  "Mr. Cat",
-  "Dr. Drool",
+  "Cat",
+  "Drool",
   "Fanny Farmer",
-  "Princess Popcorn",
-  "Mrs. Squiggleworm",
+  "Popcorn",
+  "Squiggleworm",
   "Randy",
-  "Professor Teaparty"
+  "Teaparty",
+  "Pants",
+  "Willy",
+  "Winona",
+  "Gilbert",
+  "Dan",
+  "Fred"
 ];
 const description = [
   "Silly",
@@ -30,7 +59,18 @@ const description = [
   "Pretty",
   "Rude",
   "Angry",
-  "Gassy"
+  "Gassy",
+  "Lazy",
+  "Obnoxious",
+  "Freaky",
+  "Frightening",
+  "Gentle",
+  "Deliberate",
+  "Strong",
+  "Flimsy",
+  "Floppy",
+  "Willing",
+  "Jolly"
 ];
 const btn = document.getElementById("btn");
 const person = document.querySelector(".person");
