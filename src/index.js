@@ -25,8 +25,8 @@ const honorifics = [
   "Master",
   "Chancellor",
   "Director",
-  "Lietenant",
-  "Sargeant",
+  "Lieutenant",
+  "Sergeant",
   "Constable",
   "Sheriff",
   "King",
@@ -64,11 +64,21 @@ const names = [
   "Dudette",
   "Wart",
   "Pimpleton",
-  "Pumpkin"
+  "Pumpkin",
+  "Head",
+  "Woodpecker",
+  "Monkey",
+  "Monster",
+  "Hamster",
+  "Dinosaur",
+  "Brain",
+  "Neck"
 ];
 const description = [
   "Silly",
   "Wonky",
+  "Cheesy",
+  "Corny",
   "Goofy",
   "Dorky",
   "Fun",
@@ -83,6 +93,7 @@ const description = [
   "Smelly",
   "Hairy",
   "Pretty",
+  "Stinky",
   "Rude",
   "Disgruntled",
   "Angry",
@@ -91,6 +102,7 @@ const description = [
   "Obnoxious",
   "Freaky",
   "Frightening",
+  "Cool",
   "Gentle",
   "Deliberate",
   "Strong",
@@ -100,6 +112,8 @@ const description = [
   "Jolly",
   "Balding",
   "Bald",
+  "Awesome",
+  "Dull",
   "Poopy"
 ];
 const btn = document.getElementById("btn");
