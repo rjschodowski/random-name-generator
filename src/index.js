@@ -43,6 +43,7 @@ const names = [
   "Drool",
   "Fanny Farmer",
   "Popcorn",
+  "Pepper",
   "Squiggleworm",
   "Randy",
   "Teaparty",
@@ -114,7 +115,8 @@ const description = [
   "Bald",
   "Awesome",
   "Dull",
-  "Poopy"
+  "Poopy",
+  "Puny"
 ];
 const btn = document.getElementById("btn");
 const person = document.querySelector(".person");
