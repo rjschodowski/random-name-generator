@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
 }
 
 div {
@@ -11,21 +12,23 @@ div {
 }
 
 h1 {
-  color: #515151;
-  font-family: "Barriecito", cursive;
+  color: rgb(61, 53, 53);
   font-size: 3.25rem;
+  font-weight: 900;
 }
 
 h3 {
-  color: salmon;
+  color: #17e;
+  font-family: "Barriecito", cursive;
   font-size: 2.25rem;
 }
 
 #btn {
   padding: 20px;
-  background-color: #515151;
-  color: #fff;
-  font-size: 16px;
+  background-color: #a64ac9;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 600;
   letter-spacing: 2px;
   border: none;
   border-radius: 10px;
