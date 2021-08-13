@@ -104,7 +104,6 @@ const description = [
   "Freaky",
   "Frightening",
   "Cool",
-  "Gentle",
   "Deliberate",
   "Strong",
   "Flimsy",
@@ -116,7 +115,7 @@ const description = [
   "Awesome",
   "Dull",
   "Poopy",
-  "Puny"
+  "Tiny"
 ];
 const btn = document.getElementById("btn");
 const person = document.querySelector(".person");
