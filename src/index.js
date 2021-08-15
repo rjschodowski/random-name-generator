@@ -16,6 +16,7 @@ const honorifics = [
   "Ms.",
   "Lord",
   "Sir",
+  "Sire",
   "Lady",
   "Prince",
   "Princess",
@@ -29,8 +30,12 @@ const honorifics = [
   "Sergeant",
   "Constable",
   "Sheriff",
+  "Officer",
   "King",
-  "Queen"
+  "Queen",
+  "Aunt",
+  "Uncle",
+  "Cousin"
 ];
 
 const names = [
@@ -40,6 +45,8 @@ const names = [
   "Chicken",
   "Cow",
   "Horse",
+  "Flea",
+  "Tick",
   "Drool",
   "Fanny Farmer",
   "Popcorn",
@@ -48,6 +55,8 @@ const names = [
   "Randy",
   "Teaparty",
   "Pants",
+  "Clogs",
+  "Trousers",
   "Willy",
   "Winona",
   "Gilbert",
@@ -87,6 +96,7 @@ const description = [
   "Purple",
   "Blue",
   "Pink",
+  "Clever",
   "Red",
   "Yellow",
   "Orange",
@@ -108,6 +118,7 @@ const description = [
   "Strong",
   "Flimsy",
   "Floppy",
+  "Tough",
   "Willing",
   "Jolly",
   "Balding",
@@ -115,7 +126,10 @@ const description = [
   "Awesome",
   "Dull",
   "Poopy",
-  "Tiny"
+  "Tiny",
+  "Little",
+  "Small",
+  "Large"
 ];
 const btn = document.getElementById("btn");
 const person = document.querySelector(".person");
