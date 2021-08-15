@@ -2,7 +2,9 @@ import "./styles.css";
 
 document.getElementById("app").innerHTML = `
 <h1>Silly and Random</h1>
-<h3 class="person"></h3>
+<div class="text-content">
+  <h3 class="person"></h3>
+</div>
 <div>
  <button id="btn">Click to Generate Silliness</button>
 </div>
