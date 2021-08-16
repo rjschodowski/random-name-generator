@@ -124,7 +124,6 @@ const description = [
   "Flimsy",
   "Floppy",
   "Tough",
-  "Willing",
   "Jolly",
   "Balding",
   "Bald",
